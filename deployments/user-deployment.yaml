@@ -13,7 +13,7 @@ spec:
         app: user-service
     spec:
       containers:
-      - name: user-service
+      - name: user-container
         image: achal0356/user-service:latest
         ports:
         - containerPort: 5000
